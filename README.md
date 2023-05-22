@@ -1,23 +1,26 @@
-##🇺🇦
+<h1 align="center">🇺🇦</h1>
 
 <h1 align="center">
     Laravel Auth with Socialite
 </h1>
 
 ## What is?
-##<img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="150" alt="Laravel Logo">
+<img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="150" alt="Laravel Logo">
 
 Authorization, Registration with sending a letter to the mail with the ability to reset the password, as well as login through social networks using an example through Google account.
 
-## Installation
-
 <h3>Requirements</h3>
-- **Docker**
-- **Docker Compose**
-- **Composer**
-- **Git**
+<hr/>
+
+* [Docker](https://docs.docker.com/get-docker/)
+* [Docker Compose](https://docs.docker.com/compose/install/)
+* [Composer](https://getcomposer.org/download/)
+* [Git](https://git-scm.com/downloads)
   
 ## Install via docker
+<hr/>
+
+
 <h3>1. Clone repository </h3>
 
 <h3>2. Run command</h3>
@@ -33,15 +36,11 @@ composer install --ignore-platform-reqs
 ./vendor/bin/sail up
 
 <h3>4. Create .env file following the env.example file example</h3>
-PS:
-- ** If you have a question where to get these variables:
-  GOOGLE_CLIENT_ID &
-  GOOGLE_CLIENT_SECRET
-
-To do this, go here:
+> **Note:
+> If you have a question where to get these variables: GOOGLE_CLIENT_ID & GOOGLE_CLIENT_SECRET**
+>To do this, go here:
 **https://console.cloud.google.com**
-
-Create a new project and credentials for it
+> Create a new project and credentials for it
 
 <h3>5. Generate key:</h3>
 
